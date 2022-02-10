@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackedBars", "StackedBars.csproj", "{BDFB84C4-943B-4380-A2F3-F756DC72C799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDFB84C4-943B-4380-A2F3-F756DC72C799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFB84C4-943B-4380-A2F3-F756DC72C799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFB84C4-943B-4380-A2F3-F756DC72C799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFB84C4-943B-4380-A2F3-F756DC72C799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
