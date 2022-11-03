@@ -1,4 +1,4 @@
-﻿Buildable stacks for the craftable bars in the game. Made at request by Jiu Jitsu Jones in OdinPlus discord.
+Buildable stacks for the craftable bars in the game. Made at request by Jiu Jitsu Jones in OdinPlus discord.
 
 `NOTE:` If the mod is installed on the server, the crafting requirements will be synced. The mod doesn't have version checking.
 
@@ -59,6 +59,6 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 ***
 > # Update Information (Latest listed first)
 > ### v1.0.1
-> - Update ServerSync internally
+> - Update ServerSync internally. Deprecate OdinPlus version of this, move under my name.
 > ### v1.0.0
 > - Initial Release
