@@ -14,8 +14,8 @@ namespace StackedBars
     public class StackedBarsPlugin : BaseUnityPlugin
     {
         internal const string ModName = "StackedBars";
-        internal const string ModVersion = "1.0.0";
-        internal const string Author = "azumatt";
+        internal const string ModVersion = "1.0.1";
+        internal const string Author = "Azumatt";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
         private static string ConfigFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + ConfigFileName;
@@ -37,36 +37,50 @@ namespace StackedBars
             Blackmetal.Name.English("Blackmetal Stack");
             Blackmetal.Description.English("Stacked set of Blackmetal bars");
             Blackmetal.RequiredItems.Add("BlackMetal", 20, true);
+            Blackmetal.Category.Add(BuildPieceCategory.Crafting);
+            Blackmetal.Crafting.Set(CraftingTable.ArtisanTable);
 
             BuildPiece Bronze = new("stackedbars", "stack_bronzebars");
             Bronze.Name.English("Bronze Stack");
             Bronze.Description.English("Stacked set of bars");
             Bronze.RequiredItems.Add("Bronze", 20, true);
+            Bronze.Category.Add(BuildPieceCategory.Crafting);
+            Bronze.Crafting.Set(CraftingTable.Forge);
 
             BuildPiece Copper = new("stackedbars", "stack_copperbars");
             Copper.Name.English("Copper Stack");
             Copper.Description.English("Stacked set of bars");
             Copper.RequiredItems.Add("Copper", 20, true);
+            Copper.Category.Add(BuildPieceCategory.Crafting);
+            Copper.Crafting.Set(CraftingTable.Forge);
 
             BuildPiece Flametal = new("stackedbars", "stack_flametalbars");
             Flametal.Name.English("Flametal Stack");
             Flametal.Description.English("Stacked set of bars");
             Flametal.RequiredItems.Add("Flametal", 20, true);
+            Flametal.Category.Add(BuildPieceCategory.Crafting);
+            Flametal.Crafting.Set(CraftingTable.ArtisanTable);
 
             BuildPiece Iron = new("stackedbars", "stack_ironbars");
             Iron.Name.English("Iron Stack");
             Iron.Description.English("Stacked set of bars");
             Iron.RequiredItems.Add("Iron", 20, true);
+            Iron.Category.Add(BuildPieceCategory.Crafting);
+            Iron.Crafting.Set(CraftingTable.Forge);
 
             BuildPiece Silver = new("stackedbars", "stack_silverbars");
             Silver.Name.English("Silver Stack");
             Silver.Description.English("Stacked set of bars");
             Silver.RequiredItems.Add("Silver", 20, true);
+            Silver.Category.Add(BuildPieceCategory.Crafting);
+            Silver.Crafting.Set(CraftingTable.Forge);
 
             BuildPiece Tin = new("stackedbars", "stack_tinbars");
             Tin.Name.English("Tin Stack");
             Tin.Description.English("Stacked set of bars");
             Tin.RequiredItems.Add("Tin", 20, true);
+            Tin.Category.Add(BuildPieceCategory.Crafting);
+            Tin.Crafting.Set(CraftingTable.Workbench);
 
 
             _harmony.PatchAll();
