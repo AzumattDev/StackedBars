@@ -14,7 +14,7 @@ namespace StackedBars
     public class StackedBarsPlugin : BaseUnityPlugin
     {
         internal const string ModName = "StackedBars";
-        internal const string ModVersion = "1.0.2";
+        internal const string ModVersion = "1.0.3";
         internal const string Author = "Azumatt";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
@@ -22,11 +22,8 @@ namespace StackedBars
 
         private readonly Harmony _harmony = new(ModGUID);
 
-        public static readonly ManualLogSource StackedBarsLogger =
-            BepInEx.Logging.Logger.CreateLogSource(ModName);
-
-        private static readonly ConfigSync ConfigSync = new(ModGUID)
-            { DisplayName = ModName, CurrentVersion = ModVersion, MinimumRequiredVersion = ModVersion };
+        public static readonly ManualLogSource StackedBarsLogger = BepInEx.Logging.Logger.CreateLogSource(ModName);
+        private static readonly ConfigSync ConfigSync = new(ModGUID) { DisplayName = ModName, CurrentVersion = ModVersion, MinimumRequiredVersion = ModVersion };
 
         public void Awake()
         {

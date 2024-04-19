@@ -58,6 +58,8 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
+> ### v1.0.2
+> - Update ServerSync + PieceManager internally. Update for 0.217.46 as well.
 > ### v1.0.1
 > - Update ServerSync internally. Deprecate OdinPlus version of this, move under my name.
 > ### v1.0.0
