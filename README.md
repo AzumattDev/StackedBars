@@ -58,6 +58,10 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
+> ### v1.0.4
+> - Update for Ashlands. Fix some sizing issues, update Flametal to the new material. Update internal PieceManager
+> ### v1.0.3
+> - Update
 > ### v1.0.2
 > - Update ServerSync + PieceManager internally. Update for 0.217.46 as well.
 > ### v1.0.1
