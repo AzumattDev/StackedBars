@@ -58,6 +58,14 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
+> ### v1.0.7
+> - Fix default recipe for Flametal to now use the new internal name of FlametalNew. 
+> - Update ServerSync internally
+> - Automate uploading to Thunderstore
+> ### v1.0.6
+> - Change all crafting station requirements to now just be the workbench for ease.
+> ### v1.0.5
+> - Bog Witch
 > ### v1.0.4
 > - Update for Ashlands. Fix some sizing issues, update Flametal to the new material. Update internal PieceManager
 > ### v1.0.3
