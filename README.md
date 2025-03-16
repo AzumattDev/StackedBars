@@ -58,6 +58,8 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
+> ### v1.0.8
+> - Update ServerSync internally
 > ### v1.0.7
 > - Fix default recipe for Flametal to now use the new internal name of FlametalNew. 
 > - Update ServerSync internally
